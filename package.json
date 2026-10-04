@@ -1,0 +1,16 @@
+{
+  "name": "sand-to-silicon",
+  "productName": "Sand to Silicon",
+  "version": "1.0.0",
+  "description": "Interactive simulator for learning how computer chips are made",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build:mac": "electron-packager . \"Sand to Silicon\" --platform=darwin --arch=arm64 --out=dist --overwrite"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "electron": "^33.4.11"
+  }
+}
